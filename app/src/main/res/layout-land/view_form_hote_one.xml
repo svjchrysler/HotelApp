@@ -35,10 +35,13 @@
         tools:ignore="MissingConstraints"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/spinner4"
         android:layout_marginEnd="24dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="56dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        android:layout_marginTop="98dp"
+        android:layout_marginBottom="96dp"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:text="@string/main.title"
@@ -50,11 +53,12 @@
         android:textColor="@color/colorPrimary"
         android:textSize="@dimen/main.titleregisterhotel"
         tools:ignore="MissingConstraints"
-        android:layout_marginEnd="16dp"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginStart="16dp"
-        app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
@@ -62,31 +66,29 @@
         android:layout_height="48dp"
         android:id="@+id/spinner2"
         tools:ignore="MissingConstraints"
-        app:layout_constraintRight_toLeftOf="@+id/editText2"
         tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toTopOf="@+id/spinner4"
-        android:layout_marginEnd="1dp"
         android:layout_marginTop="24dp"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        android:layout_marginBottom="24dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="24dp"
+        app:layout_constraintLeft_toLeftOf="@+id/editText2" />
 
     <Spinner
         android:layout_width="0dp"
         android:layout_height="48dp"
         android:id="@+id/spinner4"
         tools:ignore="MissingConstraints"
+        tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
         android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         android:layout_marginEnd="16dp"
         app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="24dp"
+        app:layout_constraintTop_toBottomOf="@+id/spinner3"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="88dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintHorizontal_bias="0.25" />
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Spinner
         android:layout_width="wrap_content"
@@ -95,12 +97,10 @@
         tools:ignore="MissingConstraints"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toTopOf="@+id/spinner4"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="24dp"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
+        app:layout_constraintBottom_toBottomOf="parent"
         tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="24dp"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>

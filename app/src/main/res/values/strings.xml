@@ -8,4 +8,9 @@
     <string name="main.razonsocial">Nombre o Razon Social</string>
     <string name="main.direccion">Direccion</string>
 
+    <string name="main.telefono">Telefono</string>
+    <string name="main.fax">Fax</string>
+    <string name="main.email">Correo Electronico</string>
+    <string name="main.cadenahotelera">Cadena Hotelera</string>
+
 </resources>
