@@ -13,4 +13,13 @@
     <string name="main.email">Correo Electronico</string>
     <string name="main.cadenahotelera">Cadena Hotelera</string>
 
+    <string name="main.titlePersonal">Personal Ocupado</string>
+    <string name="main.asalariado">Asalariado</string>
+    <string name="main.independiente">Independiente</string>
+    <string name="main.personaeventual">Persona Eventual</string>
+    <string name="main.trabajadorfamiliar">Trabajador Familiar sin Remuneracion</string>
+    <string name="main.h">H</string>
+    <string name="main.m">M</string>
+    <string name="main.cero">0</string>
+
 </resources>
