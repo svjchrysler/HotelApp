@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hotel</string>
+    <string name="one">Uno</string>
+    <string name="two">Dos</string>
+    <string name="three">Tres</string>
+
+    <string name="main.title">IDENTIFICACIONES DEL ESTABLECIMIENTO</string>
+    <string name="main.razonsocial">Nombre o Razon Social</string>
+    <string name="main.direccion">Direccion</string>
+
+</resources>
