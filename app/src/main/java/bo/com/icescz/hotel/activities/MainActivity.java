@@ -32,9 +32,9 @@ public class MainActivity extends AppCompatActivity {
     private void init() {
         viewpager.setAdapter(new CustomPagerAdapter(this));
         indicator.setViewPager(viewpager);
-        indicator.setStepCount(3);
+        indicator.setStepCount(4);
         indicator.setCurrentStep(0);
-
     }
+
 
 }

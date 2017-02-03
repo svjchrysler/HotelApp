@@ -3,6 +3,7 @@
     <string name="one">Uno</string>
     <string name="two">Dos</string>
     <string name="three">Tres</string>
+    <string name="four">Four</string>
 
     <string name="main.title">Identificaciones del Establecimiento</string>
     <string name="main.razonsocial">Nombre o Razon Social</string>
@@ -21,5 +22,10 @@
     <string name="main.h">H</string>
     <string name="main.m">M</string>
     <string name="main.cero">0</string>
+
+    <string name="main.titlehotel">Datos de Ingreso</string>
+    <string name="main.usuario">Usuario</string>
+    <string name="main.password">Contraseña</string>
+    <string name="main.vpassword">Verificar Contraseña</string>
 
 </resources>

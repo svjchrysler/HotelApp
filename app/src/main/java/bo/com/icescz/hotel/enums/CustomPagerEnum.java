@@ -7,7 +7,9 @@ public enum CustomPagerEnum {
 
     RED(R.string.one, R.layout.view_form_hote_one),
     BLUE(R.string.two, R.layout.view_form_hote_two),
-    ORANGE(R.string.three, R.layout.view_form_hote_three);
+    ORANGE(R.string.three, R.layout.view_form_hote_three),
+    BROWN(R.string.four, R.layout.view_form_hote_four);
+
 
     private int mTitleResId;
     private int mLayoutResId;

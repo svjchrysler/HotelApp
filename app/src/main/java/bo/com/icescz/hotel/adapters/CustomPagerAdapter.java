@@ -45,6 +45,4 @@ import bo.com.icescz.hotel.enums.CustomPagerEnum;
             CustomPagerEnum customPagerEnum = CustomPagerEnum.values()[position];
             return mContext.getString(customPagerEnum.getTitleResId());
         }
-
-
     }
