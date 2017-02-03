@@ -40,4 +40,8 @@ dependencies {
 
     //Stepper indicator
     compile 'com.github.badoualy:stepper-indicator:1.0.6'
+
+    //Rock Button
+    compile 'com.hkm:hkmprocessbuttons:1.2.4'
+
 }

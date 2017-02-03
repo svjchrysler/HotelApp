@@ -10,7 +10,6 @@ public enum CustomPagerEnum {
     ORANGE(R.string.three, R.layout.view_form_hote_three),
     BROWN(R.string.four, R.layout.view_form_hote_four);
 
-
     private int mTitleResId;
     private int mLayoutResId;
 

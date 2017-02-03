@@ -28,4 +28,12 @@
     <string name="main.password">Contraseña</string>
     <string name="main.vpassword">Verificar Contraseña</string>
 
+
+    <string name="login.title.iniciar">Iniciar Sesion</string>
+    <string name="login.btn.iniciar">Login</string>
+    <string name="login.btn.crearcuenta">Crear Cuenta</string>
+
+
+    <string name="panel.title.admin">Administracion</string>
+
 </resources>

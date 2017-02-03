@@ -8,4 +8,6 @@
     <color name="colorPrimaryText">#212121</color>
     <color name="colorSecondaryText">#757575</color>
     <color name="colorDivider">#BDBDBD</color>
+    <color name="colorButtonCompleteState">#1ACD96</color>
+    <color name="colorWhite">#FFFFFF</color>
 </resources>
